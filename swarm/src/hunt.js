@@ -1,7 +1,7 @@
 import Agent from './agent';
-import Wander from './steering/behaviours/wander';
-import Pursue from './steering/behaviours/pursue';
-import Evade from './steering/behaviours/evade';
+import Wander from 'steering/behaviours/wander';
+import Pursue from 'steering/behaviours/pursue';
+import Evade from 'steering/behaviours/evade';
 
 export default function() {
 	let agents = [];

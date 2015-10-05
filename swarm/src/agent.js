@@ -3,7 +3,7 @@ let debug = Debug('app:agent');
 
 import Hedra from 'hedra';
 import THREE from 'three';
-import Steering from './steering';
+import Steering from 'steering';
 
 let geometry;
 let material;

@@ -1,8 +1,8 @@
 import Agent from './agent';
-import Wander from './steering/behaviours/wander';
-import Align from './steering/behaviours/align';
-import Cohere from './steering/behaviours/cohere';
-import Separate from './steering/behaviours/separate';
+import Wander from 'steering/behaviours/wander';
+import Align from 'steering/behaviours/align';
+import Cohere from 'steering/behaviours/cohere';
+import Separate from 'steering/behaviours/separate';
 
 export default function() {
 	let agents = [];
