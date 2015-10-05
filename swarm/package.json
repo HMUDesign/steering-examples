@@ -1,5 +1,5 @@
 {
-  "name": "steering-swarm",
+  "name": "steering-example-swarm",
   "version": "1.0.0-0",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
@@ -11,7 +11,6 @@
     "babel-runtime": "^5.8.25",
     "debug": "2.2.x",
     "emitter": "HMUDesign/emitter-old",
-    "file-loader": "^0.8.4",
     "hedra": "HMUDesign/hedra",
     "steering": "HMUDesign/steering",
     "webpack": "1.11.x",

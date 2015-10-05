@@ -31,7 +31,6 @@ export default class App extends BaseApp {
 		let height;
 		
 		this.on('resize-post').then((event) => {
-			console.log(event)
 			width  = 150 * Math.tan(event.fovx / 2 * Math.PI / 180) * 2;
 			height = 150 * Math.tan(event.fovy / 2 * Math.PI / 180) * 2;
 		});
